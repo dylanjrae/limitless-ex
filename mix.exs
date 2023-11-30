@@ -48,7 +48,8 @@ defmodule Limitless.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
-      {:jsonrpc2, "~> 2.0"}
+      {:jsonrpc2, "~> 2.0"},
+      {:bigtable, "~> 0.7.0"}
     ]
   end
 
